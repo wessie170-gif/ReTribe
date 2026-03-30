@@ -1,0 +1,25 @@
+name: retribe
+description: ReTribe — Neural Forge for Human Connection
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0          # Free Tribe network (real-time)
+  flutter_local_notifications: ^17.0.0
+  camera: ^0.11.0                   # AR eye-contact drills
+  google_ml_kit: ^0.20.0            # On-device face/eye detection for social skills
+  ollama: ^0.1.0                    # Local LLM (or use PocketLLM integration)
+  shared_preferences: ^2.3.0
+  provider: ^6.1.2
+  confetti: ^0.7.0                  # Gamification rewards
+  isar: ^3.1.0+1                    # Local DB for offline habits
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
